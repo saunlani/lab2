@@ -8,7 +8,7 @@ namespace Lab2
         {
             Console.WriteLine("Welcome to the Grand Circus' Room Detail Generator!\n");
 
-            Start:
+        Start:
             Console.Write("Enter Length: ");
             double length = double.Parse(Console.ReadLine());
 
@@ -40,7 +40,7 @@ namespace Lab2
                 Console.WriteLine("");
                 goto Start;
             }
-            else {};
+            else { };
 
         }
     }
